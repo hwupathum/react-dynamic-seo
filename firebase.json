@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "assets",
+    "rewrites": [
+      {
+        "source": "**/**",
+        "function": "webApi"
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
